@@ -917,7 +917,7 @@ function buildProcessing( curElement ){
           curContext.moveTo( prevX, prevY );
           curContext.lineTo( firstX, firstY );
 	}
-
+	// insertion point
         curContext.lineTo( x, y );
       }
       else if ( arguments.length == 4 )
